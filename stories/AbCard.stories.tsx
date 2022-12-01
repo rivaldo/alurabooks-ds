@@ -10,4 +10,10 @@ export default {
 
 const Template : ComponentStory<typeof AbCard> = () => <AbCard/>
 
-export const Card = Template.bind({})
+export const CardComponent = () => {
+    return(
+        <AbCard>
+            <h1> Card </h1>
+        </AbCard>
+    )
+}
